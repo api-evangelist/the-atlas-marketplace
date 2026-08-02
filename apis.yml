@@ -1,8 +1,16 @@
 aid: the-atlas-marketplace
 name: The Atlas Marketplace
-description: The Atlas Marketplace is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  The Atlas Marketplace (branded "The Atlas") is a free online community and
+  knowledge marketplace for local government leaders. Officials and staff use it
+  to learn from their peers about the smart, safe, and sustainable solutions
+  working in their communities, browsing a searchable library of case studies,
+  vendors, and civic-technology projects. The platform connects public-sector
+  practitioners with the companies and partners behind proven municipal
+  solutions across mobility, infrastructure, sustainability, and public safety.
+  Backed by 500 Global, it operates as a content and community website rather
+  than a developer/API product; this profile was added to the API Evangelist
+  network as a portfolio lead and enriched from its public web presence.
 url: https://raw.githubusercontent.com/api-evangelist/the-atlas-marketplace/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +18,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://assets.the-atlas.com/uploads/the-atlas-social-og.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Government
+- GovTech
+- Local Government
+- Civic Technology
+- Community
+- Marketplace
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +51,16 @@ maintainers:
 common:
 - type: Website
   url: https://the-atlas.com
+- type: Support
+  url: https://the-atlas.com/contact-us
+- type: TermsOfService
+  url: https://the-atlas.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://the-atlas.com/privacy-policy
+- type: DomainSecurity
+  url: security/the-atlas-marketplace-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
